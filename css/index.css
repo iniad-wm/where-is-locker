@@ -1,12 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans JP";
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 2rem;
+  padding: 1rem;
+  -webkit-box-shadow: 0px 10px 20px #aeadad;
+          box-shadow: 0px 10px 20px #aeadad;
+  background-color: #eeebeb;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+.container .form {
+  padding-left: 3%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.container .form .user-field, .container .form .pass-field {
+  padding: 1.2rem;
+}
+
+.container .form .user-field input, .container .form .pass-field input {
+  border: none;
+  padding: 0.6rem;
+  padding-left: 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25vh;
+  -webkit-box-shadow: 2px 2px 6px #aeadad;
+          box-shadow: 2px 2px 6px #aeadad;
+  outline: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.container .form .user-field input:focus, .container .form .pass-field input:focus {
+  -webkit-box-shadow: 2px 2px 15px #aeadad;
+          box-shadow: 2px 2px 15px #aeadad;
+}
+
+.container .search-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.container .search-field #search-btn {
+  margin: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 20%;
+  padding-right: 20%;
+  border: none;
+  font-size: 1.8rem;
+  border-radius: 3vh;
+  background-color: #eeebeb;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.container .search-field #search-btn:hover {
+  background-color: #ada8a8;
+  letter-spacing: 10px;
+}
+
+.container .result {
+  width: 98%;
+  margin-top: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #d3cfcf;
+  border-radius: 4vh;
+  padding: 0.6rem;
+}
+
+.container .result .info {
+  width: 90%;
+  padding: 0.4rem;
+  font-size: 1.3rem;
+}
+
 .place {
-  position: absolute;
-  left: 50%;
-  width: 80%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
 }
 
 .place img {
   width: 90%;
+  margin: 1rem;
 }
 /*# sourceMappingURL=index.css.map */
